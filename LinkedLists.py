@@ -147,21 +147,6 @@ class SinglyLinkedList:
         self._size = 0
 
 
-# Simple test
-sll = SinglyLinkedList()
-sll.add(1)
-sll.add(2)
-sll.add(3)
-sll.add(5)
-sll.add(4)
-sll.add(5)
-
-sll.print_list()
-print("Removing 5")
-sll.remove(5)
-sll.print_list()
-
-
 class DoublyLinkedList:
     """
     A class representing a doubly linked list.
@@ -247,16 +232,4 @@ class DoublyLinkedList:
         print("None")
 
 
-# Simple test for DoublyLinkedList
-dll = DoublyLinkedList()
-dll.add(1)
-dll.add(2)
-dll.add(3)
-dll.add(4)
-dll.add(5)
 
-dll.print_list_forward()
-print("Removing 3")
-dll.remove(3)
-dll.print_list_forward()
-dll.print_list_backward()

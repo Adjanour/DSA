@@ -1,3 +1,17 @@
+# author: Bernard Kirk Katamanso
+# Date: June 6, 2024
+# Description: This file contains the implementation of singly and doubly linked lists in Python.
+
+# Linked lists are a data structure that consists of a sequence of elements called nodes, where each element points to the next element in the sequence.
+# The first node is called the head, and the last node is called the tail. The tail points to None, indicating the end of the list.
+# Linked lists can be singly linked (each node points to the next node) or doubly linked (each node points to the next and previous nodes).
+# The main advantage of linked lists is that they can grow or shrink in size dynamically, unlike arrays, which have a fixed size.
+# However, linked lists have slower access times compared to arrays because elements are not stored in contiguous memory locations.
+# Since linked lists do not require contiguous memory, they can be more memory-efficient than arrays for certain operations.
+# Linked list have fast insertion and deletion times, especially when adding or removing elements at the beginning or end of the list.
+# The following code demonstrates how to implement singly and doubly linked lists in Python.
+
+
 class Pointer:
     """
     Represents a pointer object in a linked list.
